@@ -1,6 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { Link } from "@/i18n/routing";
+import { Link, routing } from "@/i18n/routing";
 
 export async function generateMetadata({
   params,
@@ -8,6 +10,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   const t = await getTranslations({ locale, namespace: "privacy" });
   return {
     title: t("title"),
@@ -21,6 +24,7 @@ export default async function PrivacyPolicyPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
   const t = await getTranslations("privacy");
   const tNav = await getTranslations("nav");

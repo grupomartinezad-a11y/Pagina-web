@@ -1,5 +1,5 @@
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
@@ -23,6 +23,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) notFound();
   const t = await getTranslations({ locale, namespace: "site" });
   return {
     title: t("name"),
@@ -54,12 +55,11 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+  if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   setRequestLocale(locale);
-  const messages = await getMessages();
 
   return (
     <html lang={locale} className={inter.variable} suppressHydrationWarning>
@@ -67,7 +67,7 @@ export default async function LocaleLayout({
         className="min-h-screen bg-white font-sans text-slate-900 antialiased"
         suppressHydrationWarning
       >
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider>
           <div className="flex min-h-screen flex-col">
             <Header />
             <main className="flex-1">{children}</main>

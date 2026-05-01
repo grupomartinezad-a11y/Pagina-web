@@ -1,6 +1,6 @@
 # Social Digital Pro 2024 — Sitio web oficial
 
-Sitio web bilingüe (Inglés / Español) para **Social Digital Pro 2024 SAS** (NIT 902010188), construido con Next.js 15, App Router, TypeScript, Tailwind CSS y `next-intl`.
+Sitio web bilingüe (Inglés / Español) para **Social Digital Pro 2024 SAS** (NIT 902010188), construido con Next.js 16 (Turbopack), App Router, TypeScript, Tailwind CSS y `next-intl` 4.
 
 Cumple los requisitos del partner:
 
@@ -44,8 +44,10 @@ Cumple los requisitos del partner:
 │   ├── messages/es.json
 │   ├── request.ts
 │   └── routing.ts
-├── public/favicon.svg
-├── middleware.ts                   # Locale routing + redirección "/"
+├── public/
+│   ├── favicon.svg
+│   └── logo.png                    # Logo usado en Header, Footer, favicon y OG
+├── proxy.ts                        # Locale routing + redirección "/" (antes middleware.ts en Next 15)
 ├── next.config.ts
 ├── tailwind.config.ts
 ├── postcss.config.mjs
