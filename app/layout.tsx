@@ -10,7 +10,14 @@ export const metadata: Metadata = {
   description:
     "Social Digital Pro 2024 SAS - digital marketing agency specialised in PPC, social media marketing and content writing.",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/logo.png", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/logo.png",
+  },
+  openGraph: {
+    images: [{ url: "/logo.png", width: 512, height: 512 }],
   },
 };
 

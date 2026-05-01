@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/routing";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -42,20 +43,17 @@ export default function Header() {
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6 sm:px-8">
         <Link
           href="/"
-          className="group flex items-center gap-2 text-base font-bold tracking-tight text-slate-900"
+          className="group flex items-center gap-2.5 text-base font-bold tracking-tight text-slate-900"
           aria-label={t("home")}
         >
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-white shadow-md">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="h-4 w-4"
-              aria-hidden="true"
-            >
-              <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z" />
-            </svg>
-          </span>
+          <Image
+            src="/logo.png"
+            alt={tSite("name")}
+            width={40}
+            height={40}
+            priority
+            className="h-10 w-10 rounded-lg object-contain"
+          />
           <span className="hidden sm:inline">{tSite("name")}</span>
           <span className="sm:hidden">SDP 2024</span>
         </Link>
