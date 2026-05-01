@@ -1,0 +1,110 @@
+{
+  "site": {
+    "name": "Social Digital Pro 2024",
+    "tagline": "Digital marketing that drives measurable growth"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "contact": "Contact",
+    "privacy": "Privacy policy",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Marketing consultancy",
+    "title": "Social Digital Pro 2024",
+    "description": "Whether you are navigating a key personal decision or pursuing a major business milestone, our role is to walk that path with you. Driven by a relentless commitment to excellence, we go further to ensure every client is genuinely satisfied with the results we deliver. As a professional marketing partner, we believe in keeping a positive mindset, building purpose-led relationships, and pushing for outcomes that truly move the needle. Get in touch today for an initial conversation and discover how we can shape our services to fit exactly what you need.",
+    "cta": "Contact"
+  },
+  "about": {
+    "title": "About us",
+    "description": "We are an online advertising agency that works hand in hand with merchants and brands to hit their marketing goals and squeeze the most out of every dollar invested in advertising. Our growth is directly tied to the growth of the publishers and advertisers we serve, which is why we put so much energy into building profitable, long-lasting partnerships with every client we welcome.",
+    "cta": "Learn more"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Three pillars that power your brand online",
+    "items": {
+      "ppc": {
+        "title": "Pay Per Click (PPC) Management",
+        "description": "We help your business reach the right audience quickly and accurately through data-driven PPC campaigns. Our specialists write sharp ad copy, fine-tune bidding strategies and apply precise device-level targeting. We continuously track ROI for every keyword and adapt to seasonal demand so your products generate consistent leads and high-volume traffic."
+      },
+      "smm": {
+        "title": "Social Media Marketing (SMM)",
+        "description": "We design flexible, high-performing social media campaigns that grow your business and strengthen the bond with your audience. We start by mapping out your goals, benchmarking competitors and analysing how your customers behave. Then we use data and analytics to build solid brand-management strategies and tailored paid media that match exactly what your business needs."
+      },
+      "content": {
+        "title": "Content Writing",
+        "description": "Our content team stays on top of the latest news and market trends to make sure every piece we publish meets Google's quality standards. We craft headlines that grab attention, weave in high-performing keywords, add the right visuals and structure each message so it is genuinely easy and pleasant to read."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We would love to hear from you",
+    "infoTitle": "Get in touch",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "address": "Conjunto Altavista, Manzana 46 casa 2A, Valledupar, Cesar, Colombia",
+    "email": "gerencia@socialdigitalpro2024.com",
+    "phone": "+57 314 2929 017",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "John Doe",
+      "email": "Your email",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone (optional)",
+      "phonePlaceholder": "+1 555 123 4567",
+      "address": "Address (optional)",
+      "addressPlaceholder": "Street, city, country",
+      "subject": "Subject (optional)",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us a bit about your project...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thank you! We will contact you shortly.",
+      "error": "Something went wrong. Please try again or email us directly.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "When you use our software, you place a degree of trust in us by sharing certain sensitive user data. We invite you to read this privacy policy carefully so you understand exactly how we collect, use, protect and manage that information.",
+    "sections": {
+      "whatTitle": "What information do we collect from people who visit our website?",
+      "whatBody": "We collect your IP address, the time you spend online, the messages you send, your top-up history and your spending behaviour.",
+      "whenTitle": "When do we collect information?",
+      "whenBody": "Information is collected while you are using the website.",
+      "howTitle": "How do we use your information?",
+      "howBody": "We use the information for one specific purpose only: to provide you, or your manager, with statistics about how our services are being used.",
+      "deleteServerTitle": "How to delete all your information from our servers?",
+      "deleteServerBody": "Inactive accounts are automatically removed after 3 months without activity. Simply stop signing into your account through our software and, after 3 months, every piece of information tied to that account will be erased. If you need your information deleted right away, please contact us.",
+      "deleteLocalTitle": "How to delete all your information related to our services stored on your computer?",
+      "deleteLocalBody": "Uninstalling our application the usual way is enough.",
+      "cookiesTitle": "Do we use cookies?",
+      "cookiesBody": "Yes, we use cookies — small files transferred to your computer's hard drive — to recognise your browser and capture certain information that helps us improve your site experience. Cookies allow us to understand user preferences and to compile aggregate data about traffic and interaction across our site.",
+      "cookiesUseTitle": "We use cookies to:",
+      "cookiesUseBody": "Understand and remember user preferences for future visits. We do not use cookies that store personal or tracking information. You can configure your browser to alert you when a cookie is being sent, or to disable cookies entirely. Please keep in mind that turning cookies off may reduce the efficiency of some site features.",
+      "thirdPartyTitle": "Third-party disclosure",
+      "thirdPartyBody": "We do not sell, trade or transfer your personal information to outside parties. Throughout the entire history of our project we have never experienced a data leak."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legal": "Social Digital Pro 2024 SAS",
+    "nit": "NIT 902010188",
+    "tagline": "Digital marketing built for measurable results."
+  },
+  "language": {
+    "switch": "Change language",
+    "en": "English",
+    "es": "Spanish",
+    "enShort": "EN",
+    "esShort": "ES"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "site": {
+    "name": "Social Digital Pro 2024",
+    "tagline": "Marketing digital que impulsa crecimiento medible"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú"
+  },
+  "hero": {
+    "eyebrow": "Consultoría de marketing",
+    "title": "Social Digital Pro 2024",
+    "description": "Ya sea que estés tomando una decisión personal importante o persiguiendo un gran logro de negocio, nuestro rol es acompañarte en ese camino. Movidos por un compromiso constante con la excelencia, vamos siempre un paso más allá para garantizar que cada cliente quede genuinamente satisfecho con los resultados. Como aliado profesional de marketing, creemos en mantener una mentalidad positiva, construir relaciones con propósito e ir tras resultados que realmente generen impacto. Escríbenos hoy para una primera conversación y descubre cómo podemos adaptar nuestros servicios exactamente a lo que necesitas.",
+    "cta": "Contacto"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "description": "Somos una agencia de publicidad online que trabaja codo a codo con comerciantes y marcas para alcanzar sus objetivos de marketing y maximizar el retorno de cada peso invertido en publicidad. Nuestro crecimiento está directamente ligado al de los publishers y anunciantes que atendemos, por eso ponemos toda nuestra energía en construir alianzas rentables y duraderas con cada cliente que recibimos.",
+    "cta": "Conocer más"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Tres pilares para potenciar tu marca en línea",
+    "items": {
+      "ppc": {
+        "title": "Gestión de Pago por Clic (PPC)",
+        "description": "Te ayudamos a llegar a la audiencia correcta de forma rápida y precisa mediante campañas PPC basadas en datos. Nuestros especialistas redactan textos publicitarios afilados, ajustan estrategias de puja y aplican segmentación precisa por dispositivo. Medimos continuamente el ROI de cada palabra clave y nos adaptamos a la demanda estacional para que tus productos generen leads consistentes y tráfico de alto volumen."
+      },
+      "smm": {
+        "title": "Marketing en Redes Sociales (SMM)",
+        "description": "Diseñamos campañas en redes sociales flexibles y de alto rendimiento que hacen crecer tu negocio y fortalecen el vínculo con tu audiencia. Empezamos mapeando tus objetivos, comparando con tu competencia y analizando cómo se comportan tus clientes. Luego usamos datos y analítica para construir estrategias sólidas de gestión de marca y medios pagos a la medida de tu negocio."
+      },
+      "content": {
+        "title": "Redacción de Contenido",
+        "description": "Nuestro equipo de contenido se mantiene al día con las últimas noticias y tendencias del mercado para asegurar que cada pieza cumpla con los estándares de calidad de Google. Creamos titulares que llaman la atención, integramos palabras clave de alto desempeño, sumamos los visuales correctos y estructuramos cada mensaje para que sea fácil y agradable de leer."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti",
+    "infoTitle": "Cómo encontrarnos",
+    "addressLabel": "Dirección",
+    "emailLabel": "Correo",
+    "phoneLabel": "Teléfono",
+    "address": "Conjunto Altavista, Manzana 46 casa 2A, Valledupar, Cesar, Colombia",
+    "email": "gerencia@socialdigitalpro2024.com",
+    "phone": "+57 314 2929 017",
+    "form": {
+      "name": "Tu nombre",
+      "namePlaceholder": "Juan Pérez",
+      "email": "Tu correo",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "phone": "Teléfono (opcional)",
+      "phonePlaceholder": "+57 300 000 0000",
+      "address": "Dirección (opcional)",
+      "addressPlaceholder": "Calle, ciudad, país",
+      "subject": "Asunto (opcional)",
+      "subjectPlaceholder": "¿Cómo podemos ayudarte?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos un poco sobre tu proyecto...",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando...",
+      "success": "¡Gracias! Te contactaremos pronto.",
+      "error": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Ingresa un correo válido"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "intro": "Cuando usas nuestro software depositas cierta confianza en nosotros al compartir datos sensibles de usuario. Te invitamos a leer esta política de privacidad con atención para que entiendas exactamente cómo recolectamos, usamos, protegemos y administramos esa información.",
+    "sections": {
+      "whatTitle": "¿Qué información recolectamos de las personas que visitan nuestro sitio?",
+      "whatBody": "Recolectamos tu dirección IP, el tiempo que pasas en línea, los mensajes que envías, tu historial de recargas y tus hábitos de gasto.",
+      "whenTitle": "¿Cuándo recolectamos información?",
+      "whenBody": "La información se recolecta mientras estás usando el sitio web.",
+      "howTitle": "¿Cómo usamos tu información?",
+      "howBody": "Usamos la información con un único propósito: entregarte a ti, o a tu manager, estadísticas sobre cómo se están usando nuestros servicios.",
+      "deleteServerTitle": "¿Cómo borrar toda tu información de nuestros servidores?",
+      "deleteServerBody": "Las cuentas inactivas se eliminan automáticamente después de 3 meses sin actividad. Basta con que dejes de iniciar sesión a través de nuestro software y, pasados 3 meses, toda la información asociada a esa cuenta será borrada. Si necesitas que tu información se elimine de inmediato, por favor contáctanos.",
+      "deleteLocalTitle": "¿Cómo borrar toda tu información relacionada con nuestros servicios almacenada en tu computador?",
+      "deleteLocalBody": "Desinstalar nuestra aplicación de la manera habitual es suficiente.",
+      "cookiesTitle": "¿Usamos cookies?",
+      "cookiesBody": "Sí, usamos cookies —pequeños archivos que se transfieren al disco duro de tu computador— para reconocer tu navegador y capturar cierta información que nos ayuda a mejorar tu experiencia en el sitio. Las cookies nos permiten entender preferencias de los usuarios y armar datos agregados sobre el tráfico e interacción del sitio.",
+      "cookiesUseTitle": "Usamos cookies para:",
+      "cookiesUseBody": "Entender y recordar las preferencias del usuario en futuras visitas. No usamos cookies que almacenen información personal o de seguimiento. Puedes configurar tu navegador para que te avise cuando se envíe una cookie, o para deshabilitarlas por completo. Ten en cuenta que desactivarlas puede reducir la eficiencia de algunas funciones del sitio.",
+      "thirdPartyTitle": "Divulgación a terceros",
+      "thirdPartyBody": "No vendemos, intercambiamos ni transferimos tu información personal a terceros. A lo largo de toda la historia del proyecto nunca hemos tenido una fuga de datos."
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "legal": "Social Digital Pro 2024 SAS",
+    "nit": "NIT 902010188",
+    "tagline": "Marketing digital diseñado para resultados medibles."
+  },
+  "language": {
+    "switch": "Cambiar idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "enShort": "EN",
+    "esShort": "ES"
+  }
+}
