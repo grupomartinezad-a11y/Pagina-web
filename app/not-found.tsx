@@ -2,8 +2,11 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <html lang="en">
-      <body className="flex min-h-screen items-center justify-center bg-slate-50 p-6 font-sans text-slate-900">
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className="flex min-h-screen items-center justify-center bg-slate-50 p-6 font-sans text-slate-900"
+        suppressHydrationWarning
+      >
         <div className="text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-blue-600">
             404
